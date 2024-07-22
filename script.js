@@ -2,6 +2,7 @@ const paragraph = document.querySelector('.paragraph');
 const form = document.querySelector('.form');
 const input = document.querySelector('.input');
 const clearBtn = document.querySelector('.clear');
+const setBtn = document.querySelector('.set');
 
 window.addEventListener('load', () => {
   const localData = localStorage.getItem('num23');
@@ -29,5 +30,5 @@ clearBtn.addEventListener('click', (e) => {
 });
 
 input.addEventListener('input', (e) => {
-  clearBtn.disabled = e.target.value === '';
+  setBtn.disabled = e.target.value === '';
 });
