@@ -5,3 +5,5 @@ Create simple HTML form with text field and buttons “Set” and “Clear”. O
 Text field should accept only numbers.
 Form should not be submitted if the field value is empty.
 Disable “Set” button if the field value is empty.
+
+Solution link: https://ptbit.github.io/test-task-2/
